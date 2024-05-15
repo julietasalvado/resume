@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+TODO: Move to tailwind.config
+*/
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-4px);
+    }
+    30% {
+        transform: translateY(-2px);
+    }
+}
